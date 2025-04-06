@@ -35,7 +35,6 @@ class Solution(object):
         while stack:
             # LIFO - Last In First Out
             root = stack.pop()
-            print(root)
             if root is not None:
                 # take first value "root"
                 result.append(root.val)
