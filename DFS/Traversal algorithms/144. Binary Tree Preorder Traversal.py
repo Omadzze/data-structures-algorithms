@@ -17,7 +17,7 @@ class Solution(object):
         In our case we are using LIFO method with stacks, so order of execution will be first add val to the list then add right values first(this will be last)
         Then we are adding left value(this will be taken first) and iterate
 
-        [1, 2, 4, none_foumd, 5, 6, none_found 7, none_found, 3, 8, 9, none_found]
+        [1, 2, 4, none_found, 5, 6, none_found 7, none_found, 3, 8, 9, none_found]
 
         Complexity:
         Time: O(n) - because we are visiting one node once
