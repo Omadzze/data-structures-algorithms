@@ -15,7 +15,7 @@ class Solution:
         Child from left branch should not mirror child from right branch. Iterate and return True
 
         Complexity:
-        Time Complexity: O(n) - becaue we are going through the tree once, 'n' total number ofnodes
+        Time Complexity: O(n) - because we are going through the tree once, 'n' total number ofnodes
         Space Complexity O(n) - because we are using recursion
         """
 
@@ -25,7 +25,7 @@ class Solution:
             if left_check is None and right_check is None:
                 return True
 
-            # if one node does not contain value return False
+            # if one node still contains value return false
             if left_check is None  or right_check is None:
                 return False
 
