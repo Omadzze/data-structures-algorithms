@@ -11,16 +11,16 @@ class Solution:
 
         def recursion(left, right):
 
-            # if there no elements in subtrees
+            # if no elements in subtrees
             if left > right:
                 return None
 
-            # poping last element from postorder to create root element
+            # popping last element from postorder to create root element
             value = postorder.pop()
             # assign root element to tree
             root = TreeNode(value)
 
-            # split left and right subtree in inorder lsit based on a postorder root element
+            # split left and right subtree in inorder list based on a postorder root element
             index = idx_map[value]
 
             # create left and right subtree

@@ -10,12 +10,12 @@ class Solution:
     def goodNodes(self, root: TreeNode) -> int:
 
         """
-        1. We have a root node which considere as "good" after that we need to compare values whether we have smth higher than root node value
+        1. We have a root node which considers as "good" after that we need to compare values whether we have smth higher than root node value
         2. If we have we would need to update our max_value and increase counter++ since we have good value
         3. Else we are doing nothing
 
         Possible solutions:
-        1. Use recursion: Go trough nodes and compare them with the root node if path contains higher value, update value max_value, counter++
+        1. Use recursion: Go through nodes and compare them with the root node if path contains higher value, update value max_value, counter++
 
         Constraints:
         Each node's value is between [-10^4, 10^4]

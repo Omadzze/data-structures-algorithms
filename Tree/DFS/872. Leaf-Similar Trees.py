@@ -9,7 +9,7 @@
 class Solution:
     def leafSimilar(self, root1: Optional[TreeNode], root2: Optional[TreeNode]) -> bool:
 
-        # Recurisve call
+        # Recursive call
         def dfs(node):
             # check node
             if node is None:
