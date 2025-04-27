@@ -16,8 +16,8 @@ class Solution:
 
         Once odd will be fully traversed we would need to connect odd to even head.
 
-        Time Compleixty: O(n) - n total number of ndoes
-        Space Complexity; O(1)
+        Time Complexity: O(n) - n total number of nodes
+        Space Complexity: O(1)
         """
 
         # edge case if we have one value in a linked list
@@ -40,4 +40,4 @@ class Solution:
 
         # connect odd with even head to make full sequence
         odd.next = even_head
-        return  head
+        return head

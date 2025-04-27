@@ -23,7 +23,7 @@ class Solution:
         Input: previous -> target(don't append) -> next
         Output: previous -> next
 
-        Time Compleixty: O(n) - since iteartion stops when fast reached the end and slow connect to values
+        Time Complexity: O(n) - since iteration stops when fast reached the end and slow connect to values
         together so it's constant time
 
         Space complexity O(1)
@@ -36,7 +36,7 @@ class Solution:
         # slow (n), fast (n+2)
         slow, fast = head, head.next.next
 
-        # itereate two pointers till fast is not none
+        # iterate two pointers till fast is not none
         while fast and fast.next:
             slow = slow.next
             fast = fast.next.next
