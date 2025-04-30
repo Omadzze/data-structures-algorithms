@@ -27,7 +27,7 @@ class Solution:
             if not root:
                 return
 
-                # append current value
+            # append current value
             curr_sum += root.val
 
             # check wheher it's equal to our target that we are looking for
