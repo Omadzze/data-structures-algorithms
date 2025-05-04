@@ -36,7 +36,7 @@ class Solution:
         elif key < root.val:
             root.left = self.deleteNode(root.left, key)
         else:
-            # check whether side of tree has elements and if no fall back to other sied
+            # check whether side of tree has elements and if no fall back to other side
             if not root.right:
                 return root.left
             elif not root.left:
