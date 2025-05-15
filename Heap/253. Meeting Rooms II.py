@@ -27,7 +27,7 @@ class Solution:
         # since first room was added we are starting from second
         for i in meeting_time[1:]:
 
-            # assign room to the meeting if we have lag between end time and start tiem
+            # assign room to the meeting if we have lag between end time and start time
             if free_rooms[0] <= i[0]:
                 heapq.heappop(free_rooms)
 
