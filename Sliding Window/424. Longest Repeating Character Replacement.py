@@ -9,6 +9,9 @@ class Solution:
         The task is to find lognest substring that is possible by changing K charcaters on it. For that we can use sliding widnow approach.
         We need to use hashset and append values to count how much A or B we have, once we calculated we need to keep our values in the window.
         If they are in a window we need to maximize and retunr result of consequence characters
+
+        Time Complexity: O(n) - however we have 26 characters but everything will be gone once
+        Space Complexity: O(1) - since we are storing values only in a dic
         """
         counter = {}
 
