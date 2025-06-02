@@ -19,12 +19,15 @@ class Solution:
         result = 0
 
         for right in range(len(s)):
+            # count chars
             counter[s[right]] = 1 + counter.get(s[right], 0)
 
+            # keep chars in the window
             while (right - left + 1) - max(counter.values()) > k:
                 counter[s[left]] -= 1
                 left += 1
 
+            # return maximum sequence of chars
             result = max(result, right - left + 1)
 
         return result
