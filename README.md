@@ -23,14 +23,11 @@ data-structures-algorithms/
 
 Each folder corresponds to a specific topic on LeetCode. Feel free to explore any category or problem of interest.
 
----
 
 ## Prerequisites
 
 - Python 3.7 or higher
 - No external libraries required
-
----
 
 ## How to Use
 
@@ -49,7 +46,6 @@ Each folder corresponds to a specific topic on LeetCode. Feel free to explore an
    ```bash
    python3 two_sum_1.py
    ```
----
 
 ## Solution Naming Convention
 
@@ -62,8 +58,6 @@ Example:
 two_sum_1.py  # Problem 1: Two Sum
 ```
 
----
-
 ## Contributing
 
 Contributions are welcome! If you'd like to add new solutions or improve existing ones:
@@ -72,7 +66,6 @@ Contributions are welcome! If you'd like to add new solutions or improve existin
 2. Create a new branch: `git checkout -b feature/<topic>/<problem>`
 3. Add your solution
 4. Submit a pull request with a clear description.
-
 
 ## License
 
