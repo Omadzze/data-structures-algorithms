@@ -73,13 +73,11 @@ Contributions are welcome! If you'd like to add new solutions or improve existin
 3. Add your solution
 4. Submit a pull request with a clear description.
 
----
 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
 
----
 
 Happy coding! 🚀
 
