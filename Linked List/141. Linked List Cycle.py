@@ -33,18 +33,26 @@ class Solution:
 
         return False
 
-
+        # SOLUTION 2: Slow and Fast pointers
         """
-        # 2. approach fast and slow pointer - space efficient
+        we need to check whether fast pointer is None or there
+        is no other values to stop loop.
 
-        slow = head
-        fast = head
-        
-        while (fast != None and fast.next != None):
-            slow = slow.next
-            fast = fast.next.next
-            if (slow == fast):
-                return True
-        
-        return False
+        1. we need check whether fast pointer referering to the slow pointer
+        2. If it's referering we can output results directly
+
+        Time Complexity: O(n) - since we are traversing list once.
+        Space Complexity: O(1) - since we are not saving anything. 
         """
+
+        #slow, fast = head, head
+
+        #while fast and fast.next is not None:
+
+       #     slow = slow.next
+       #     fast = fast.next.next
+
+       #     if slow == fast:
+       #         return True
+
+       # return False
